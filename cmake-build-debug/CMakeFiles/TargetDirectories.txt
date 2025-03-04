@@ -1,0 +1,3 @@
+F:/code/Foundations_Game_Eng_Dev/cmake-build-debug/CMakeFiles/Foundations_Game_Eng_Dev.dir
+F:/code/Foundations_Game_Eng_Dev/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/code/Foundations_Game_Eng_Dev/cmake-build-debug/CMakeFiles/rebuild_cache.dir
