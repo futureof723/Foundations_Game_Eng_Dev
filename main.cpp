@@ -1,12 +1,5 @@
-#include <cmath>
 #include <iostream>
-#include <math.h>
-#include <valarray>
-
 #include "library/Vectors.h"
-
-float find_magnitude(Vector3D& a);
-float distance_3D(Vector3D& a, Vector3D& b);
 
 int main() {
     // using default constructor
@@ -23,19 +16,10 @@ int main() {
 
     std::cout << "Distance between v and v2: " << distance_3D(v, v2) << std::endl;
 
+    std::cout << "Changing the magnitude of v2..." << std::endl;
+    change_magnitude(v2, 2.0f);
+    std::cout << "New magnitude of v2: " << find_magnitude(v2) << std::endl;
+    std::cout << "New distance between v and v2: " << distance_3D(v, v2) << std::endl;
+
     return 0;
-}
-
-float find_magnitude(Vector3D& a) {
-    const float x = a[0] * a[0];
-    const float y = a[1] * a[1];
-    const float z = a[2] * a[2];
-    return sqrt(x + y + z);
-}
-
-float distance_3D(Vector3D& a, Vector3D& b) {
-    const float dx = a[0] - b[0];
-    const float dy = a[1] - b[1];
-    const float dz = a[2] - b[2];
-    return sqrt(dx * dx + dy * dy + dz * dz);
 }

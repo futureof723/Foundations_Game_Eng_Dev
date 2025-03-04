@@ -19,6 +19,10 @@ struct Vector3D {
     const float& operator[](int i) const;
 };
 
+float find_magnitude(Vector3D& a);
+float distance_3D(Vector3D& a, Vector3D& b);
+void change_magnitude(Vector3D& a, float scalar_value);
+
 
 
 #endif //VECTORS_H
