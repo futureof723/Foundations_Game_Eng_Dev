@@ -4,6 +4,6 @@ project(Foundations_Game_Eng_Dev)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Foundations_Game_Eng_Dev main.cpp
-        Vectors.cpp
-        Vectors.h
+        library/Vectors.cpp
+        library/Vectors.h
 )

@@ -1,14 +1,7 @@
 # ninja log v6
-5	50	7627653503191366	CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj	c118a0c7a57fe125
-1	375	7627653503161277	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
-7	48	7627653928155862	CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj	c118a0c7a57fe125
-14	55	7627654384294036	CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj	c118a0c7a57fe125
 7	54	7627658896363430	CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj	c118a0c7a57fe125
-4	357	7627658896323410	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
-357	429	7627658899857975	Foundations_Game_Eng_Dev.exe	1adfcb1e194bb066
-10	359	7627659378069477	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
-360	432	7627659381574227	Foundations_Game_Eng_Dev.exe	1adfcb1e194bb066
-3	359	7627659776161071	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
-360	431	7627659779720726	Foundations_Game_Eng_Dev.exe	1adfcb1e194bb066
 4	362	7627660535526416	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
 362	433	7627660539116255	Foundations_Game_Eng_Dev.exe	1adfcb1e194bb066
+7	54	7627663235420713	CMakeFiles/Foundations_Game_Eng_Dev.dir/library/Vectors.cpp.obj	639e27169f21fa39
+3	363	7627663235385671	CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj	40a931204aa8deec
+363	434	7627663238980321	Foundations_Game_Eng_Dev.exe	948ea78b6b19b8f7

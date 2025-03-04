@@ -55,11 +55,11 @@ build CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj: CXX_COMPILER__Founda
   OBJECT_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir
   OBJECT_FILE_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir
 
-build CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj: CXX_COMPILER__Foundations_Game_Eng_Dev_unscanned_Debug F$:/code/Foundations_Game_Eng_Dev/Vectors.cpp || cmake_object_order_depends_target_Foundations_Game_Eng_Dev
-  DEP_FILE = CMakeFiles\Foundations_Game_Eng_Dev.dir\Vectors.cpp.obj.d
+build CMakeFiles/Foundations_Game_Eng_Dev.dir/library/Vectors.cpp.obj: CXX_COMPILER__Foundations_Game_Eng_Dev_unscanned_Debug F$:/code/Foundations_Game_Eng_Dev/library/Vectors.cpp || cmake_object_order_depends_target_Foundations_Game_Eng_Dev
+  DEP_FILE = CMakeFiles\Foundations_Game_Eng_Dev.dir\library\Vectors.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir
-  OBJECT_FILE_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir
+  OBJECT_FILE_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir\library
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj: CXX_COMPILER__Fou
 #############################################
 # Link the executable Foundations_Game_Eng_Dev.exe
 
-build Foundations_Game_Eng_Dev.exe: CXX_EXECUTABLE_LINKER__Foundations_Game_Eng_Dev_Debug CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj CMakeFiles/Foundations_Game_Eng_Dev.dir/Vectors.cpp.obj
+build Foundations_Game_Eng_Dev.exe: CXX_EXECUTABLE_LINKER__Foundations_Game_Eng_Dev_Debug CMakeFiles/Foundations_Game_Eng_Dev.dir/main.cpp.obj CMakeFiles/Foundations_Game_Eng_Dev.dir/library/Vectors.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Foundations_Game_Eng_Dev.dir
