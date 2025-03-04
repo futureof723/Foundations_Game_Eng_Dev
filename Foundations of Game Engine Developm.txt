@@ -1,0 +1,52 @@
+Foundations of Game Engine Development Volume 1 Mathematics Notes
+
+Chapter 1:
+
+Scalar:
+A scalar is a quantity such as distance, mass, or time that can be fully described using a single numerical value representing its size, or its magnitude.
+
+Vector:
+A vector is a quantity that carries enough information to represent a direction in space in addition to a magnitude.
+
+Example of a vector:
+1) The velocity of a projectile at a particular instant is given by both its speed (the magnitude) and the direction in which it is currently travelling.
+2) A force acting on an object is represented by both its strength (the magnitude) and the direction in which it is applied.
+3) vector = (1,2,3)
+
+In n dimensions, a direction and magnitude are described by n numerical coordinates, and these are called the components of a vector.
+
+So in,
+vector = (1,2,3)
+1,2,3 are the components of a vector.
+
+Using the Cartesian coordinates, 1,2, and 3 will be x, y, and z in 3 dimensional space.
+
+In two dimensional space we do not have a z component.
+
+Four-dimensional space is a setting in which a great deal of mathematics is done in the course of game engine development.
+Instead of only x, y, and z coordinates we have x, y, z, and w.
+
+The fourth component w is sometimes called a "weight" value.
+
+Vectors are represented as a line segment having an arrowhead at one end.
+The length of the line segment is the vectors magnitude, and the arrowhead represents the direction.
+
+To calculate the magnitude of 3 dimensional vector we use Pythagoras theorem:
+
+v = sqrt(vx^2, vy^2, vz^2)
+
+The magnitude of a vector can be changed by multiplying it by a scalar value.
+
+Scalar multiplication produces a vector with a new magnitude but with a direction that is parallel to the original vector.
+
+When the scalar is positive, the new vector still points in the same direction as the original.
+But when the scalar is negative, the new vector points in the opposite direction.
+
+A vector that has a magnitude of one is called a unit vector.
+The process of setting a vectors magnitude by to one is called normalization.
+Unit vectors are important because they are able to provide directional information without a magnitude when a meaningful size is not necessary.
+
+Any nonzero vector can be turned into a unit vector by dividing it by its magnitude.
+
+
+
