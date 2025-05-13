@@ -53,7 +53,7 @@ vector properties:
 s and t are scalars
 a and b are vectors
 
-(a + b) + c = a + b (b + c) - Associative law for vector addition
+(a + b) + c = a + (b + c) - Associative law for vector addition
 a + b = b + a - Commutative law for vector addition
 (st)a = s(ta) - Associative law for scalar-vector multiplication
 ta = at - Commutative law for scalar-vector multiplication
